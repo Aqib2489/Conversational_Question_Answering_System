@@ -8,7 +8,7 @@ from byaldi import RAGMultiModalModel
 import google.generativeai as genai
 
 # Configure Google Gemini API
-GOOGLE_API_KEY = "AIzaSyDsC7t85pvjcPueAmCRzC1P0ccJFpAUEhw"
+GOOGLE_API_KEY = ""
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
 
