@@ -1,45 +1,5 @@
-# Streamlit for the web app
-streamlit==1.26.0
-streamlit-chat==0.3.0
-
-# Hugging Face Hub for accessing models
-huggingface-hub==0.18.0
-transformers==4.33.0
-
-# For RAG Multi-Modal model
-byaldi==0.2.1
-
-# Google Generative AI for Gemini model
-google-generativeai==0.2.1
-
-# PIL and Image Processing
-pillow==10.0.0
-
-# For handling base64 encoding
-pybase64==1.2.3
-
-# PyTorch for model operations
-torch==2.1.0
-torchvision==0.16.0
-
-# Utilities for handling images
-ipython==8.16.1
-
-# Optional: If you use Jupyter for local testing
-jupyter==1.0.0
-
-# File handling and paths
-pathlib2==2.3.7.post1
-
-# Additional utilities
-numpy==1.25.2
-requests==2.31.0
-
-# If you need NLTK for text processing (optional)
-nltk==3.8.1
-
-# For environment management
-python-dotenv==1.0.0
-
-# If you are using sentence transformers (optional)
-sentence-transformers==2.2.2
+streamlit
+google-generativeai
+byaldi
+Pillow
+IPython
